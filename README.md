@@ -1,7 +1,7 @@
 # ISA Bus LogicAnalyzer
 
 
-This is a fork of https://github.com/gusmanb/logicanalyzer. It utilizes that project's ability to chain multiple logic analyzers together with a chain of 3 of them them on a card that plugs into an 8 bit ISA bus card. 47 of the channels are connected to A0-19, D0-7, and various other signals on the ISA bus. The 3rd logic analyzer goes to a header, so they can be jumpered over to other points on a motherboard (like buffer/latch/ram/rom CS or OE enable pins) as needed.
+This is a fork of https://github.com/gusmanb/logicanalyzer. It utilizes that project's ability to chain multiple logic analyzers together with a chain of 3 of them them on a card that plugs into an 8 bit ISA bus slot. 47 of the channels are connected to A0-19, D0-7, and various other signals on the ISA bus. The 3rd logic analyzer goes to a header, so they can be jumpered over to other points on a motherboard (like buffer/latch/ram/rom CS or OE enable pins) as needed.
 
 It is a work in progress. Circuit boards have been made and kicad and gerber files are in the electronics\ISA_Logic_analyzer folder. Assembly of the first board is in progress, so no testing has been done yet.
 
